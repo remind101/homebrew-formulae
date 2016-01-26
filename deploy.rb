@@ -6,6 +6,7 @@ class Deploy < Formula
   sha256 "db3e7b7181cdf3e57b497fc5ea6ff590ca75bde72b8d301f05d60ce00fe3f77b"
 
   def install
+    bin.install "darwin_amd64_deploy" => "deploy"
   end
 
   test do
