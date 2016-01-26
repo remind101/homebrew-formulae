@@ -1,6 +1,6 @@
 # Remind Utilities
 
-This is a [Homebrew](http://brew.sh/) tap that includes a bunch of utilities that we use at Remind.
+This is a [Homebrew](http://brew.sh/) tap for utilities that we use at Remind.
 
 ## Install
 
@@ -8,7 +8,13 @@ This is a [Homebrew](http://brew.sh/) tap that includes a bunch of utilities tha
 $ brew tap remind101/formulae
 ```
 
-## Utilities
+Now you can install any formulae in this tap, like emp:
+
+```bash
+$ brew install emp
+```
+
+## Formulae
 
 * **[emp](https://github.com/remind101/empire)**: CLI for Empire.
 * **[assume-role](https://github.com/remind101/assume-role)**: Easily assume AWS roles.
