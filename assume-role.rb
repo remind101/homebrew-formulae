@@ -6,6 +6,7 @@ class AssumeRole < Formula
   sha256 "837b2035e95b6fc8ced30b20d9b3231877066686ba26114ca2843385b10bbb99"
 
   def install
+    bin.install "assume-role"
   end
 
   test do
